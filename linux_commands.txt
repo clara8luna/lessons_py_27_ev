@@ -1,0 +1,37 @@
+Linux Commands
+
+1. pwd - print working directory -> возвращает абсолютный путь до нашей 
+папки
+2. mkdir <dir_name> - make directory -> создание указанной директории 
+3. ls - list выводит список всех файлов и папок текущей директории
+4. touch <file name> -> создание файла  
+5. cd - change directory <dir_name> -> перемещает в определенную папку 
+(dir_name)
+	cd .. -> перемещаемся на уровень выше
+	cd -> домашеяя директория (cd~) 
+	cd ../../ - change directory (2 step back)
+7.  ls -la - выводит список файлов и директорий, включая скрытые и с 
+подробной информацией о них
+8.  ls -a -> выводит список файлов и директорий, включая скрытые 
+9.  rm <file name> -> remove удаление файла
+10. rmdir <dir_name> - remove directory -> удаляет выбранную директорию
+11. rm -rf <dir_name> - remove recursively force -> удаляет все вложенные 
+файлы и папки и только потом удаляет нужную (указанную) директорию
+12. tree - shows a structure of the directory 
+13. nano - text editor -> открывает / создает файл в текстовом виде
+	1. ctrl + X 
+	2. ctrl + Y
+	3. Enter
+
+14. cat <file_name> -> выводит содержимое файла
+15. clear (ctrl+L) -> очищает терминал (перемещает
+16. mv <filename> <dir_name> (move) -> перемещает filename в указанную 
+директорию
+	Также служит для переименования файла
+17. cp <filename> <dir_name> -> копирует файл в указанную директорию
+18. find <name> -> ищет файл или директорию
+	 find /home -name <filename>
+19. sudo <command> -> выполняет команду с правами админа
+20. echo <text> > <filename> -> записывает <text> в указанный файл (файл 
+перезаписывается)
+21. history -> выводит историю введенных в терминал команд 
